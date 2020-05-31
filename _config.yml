@@ -63,6 +63,8 @@ defaults:
   - scope:
       type: posts
     values:
+      layout: single
+      classes: wide
       read_time: false
 
 # collections
