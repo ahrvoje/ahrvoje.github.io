@@ -7,6 +7,6 @@ layout: home
 
 ### Section 1
 
-Inline eq. \(x^\)$:
+Inline eq. \(x^2\)$:
 
 \[ x^2 = 3 \]
