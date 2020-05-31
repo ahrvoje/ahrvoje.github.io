@@ -6,8 +6,6 @@ header:
 permalink: /about/
 ---
 
-# About
-
 Lorem ipsum.
 
 $$ a^2 + b^2 = c^2 $$

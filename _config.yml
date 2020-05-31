@@ -41,7 +41,7 @@ author:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "hrvojeabraham"
+    shortname: "ahrvoje-github-io"
 
 # pagination for blog page
 paginate: 10 # number of posts to show
