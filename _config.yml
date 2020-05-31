@@ -30,20 +30,18 @@ minimal_mistakes_skin: "dirt"
 # settings for author profile
 author:
   name   : "Hrvoje Abraham"
-  avatar : ""
-  bio    : ""
+  avatar : "assets/images/ahrvoje_avatar_2020-05-31.png"
+  bio    : "Bio info"
   location: "Zagreb, Croatia"
   github : ahrvoje
   linkedin: hrvojeabraham
   email  : ahrvoje@gmail.com
-
 
 # comments by disqus
 comments:
   provider: "disqus"
   disqus:
     shortname: "hrvojeabraham"
-
 
 # pagination for blog page
 paginate: 10 # number of posts to show
