@@ -8,7 +8,11 @@ comments: true
 
 ### Section 1
 
+Some inline eq. $x^2$.[^fnote_1]
+
 $$ E = m \cdot c^2 $$
+
+Reference to second footnote.[^fnote_2]
 
 <!-------------------------------- FOOTER ----------------------------> 
 
