@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-feed
@@ -35,7 +35,7 @@ plainwhite:
 
   social_links:
     twitter: ahrvoje
-    github: ajrvoje
+    github: ahrvoje
     linkedIn: in/ahrvoje # format: locale/username
 
 # Exclude from processing.
