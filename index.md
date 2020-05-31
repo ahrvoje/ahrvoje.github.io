@@ -34,9 +34,9 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### MathJax test
 
-Test test test inline eq. `$x^2`$:
+Test test test inline eq. `$x^2$`:
 
-`$$ x^2 = \sqrt{z} `$$
+`$$ x^2 = \sqrt{z} $$`
 
 ### Support or Contact
 
