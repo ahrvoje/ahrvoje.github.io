@@ -56,15 +56,14 @@ defaults:
       layout: single
       mathjax: true
       author_profile: true
-      class: wide
-      title: " "
+      classes: wide
+      title: ""
       title_separator: "|"
   # posts
   - scope:
       type: posts
     values:
       toc: false
-      toc_label: "Contents"
       read_time: false
       comments: true
 
