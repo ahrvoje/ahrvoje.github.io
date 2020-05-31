@@ -7,6 +7,6 @@ layout: home
 
 ### Section 1
 
-Inline eq. $x^2$:
+Inline eq. \(x^\)$:
 
-$$ x^2 = 3 $$
+\[ x^2 = 3 \]
