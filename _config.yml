@@ -26,7 +26,8 @@ markdown: kramdown
 theme: "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dirt"
-  
+search: true
+
 # settings for author profile
 author:
   name   : "Hrvoje Abraham"
@@ -53,7 +54,7 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: single
+      layout: single, search
       mathjax: true
       author_profile: true
       class: wide
@@ -63,6 +64,7 @@ defaults:
   - scope:
       type: posts
     values:
+      layout: search
       toc: true
       toc_label: "Contents"
       read_time: false
