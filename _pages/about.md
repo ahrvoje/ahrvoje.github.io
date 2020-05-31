@@ -6,10 +6,8 @@ header:
 permalink: /about/
 ---
 
-# About Me
+# About
 
-<img src="{{ "" | absolute_url }}" width="50%" hspace="20" align="right">
-  
 Lorem ipsum.
 
 $$ a^2 + b^2 = c^2 $$
