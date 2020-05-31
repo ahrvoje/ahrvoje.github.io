@@ -1,6 +1,7 @@
 ---
 title:  "First post"
 category: posts
+classes: wide
 date: 2020-05-31
 excerpt: "Abstract."
 comments: true
