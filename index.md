@@ -4,3 +4,9 @@
 
 layout: default
 ---
+
+### Section 1
+
+Inline eq. $x^2$:
+
+$$ x^2 = 3 $$
