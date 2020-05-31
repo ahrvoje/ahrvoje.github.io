@@ -1,17 +1,15 @@
 # TODO
 
-TODO items for pwills.com.
+TODO items.
 
 ## Technical
-- Icons for social media links disappeared :(
-  - Doesn't happen if we use local theme instead of remote
-- reduce resolution of header images (& headshot)
+- item A
 
 ## Layout
-- Add social media links in footer
+- item B
 
 ## Content
-
+- item C
 
 ## Other
-- reorganize /assets/images/
+- item D

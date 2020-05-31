@@ -34,15 +34,15 @@ author:
   bio    : ""
   location: "Zagreb, Croatia"
   github : ahrvoje
-  linkedin: hrvoje.abraham
+  linkedin: hrvojeabraham
   email  : ahrvoje@gmail.com
 
 
-# # comments by disqus
-#comments:
-#  provider: "disqus"
-#  disqus:
-#    shortname: "pwills-com"
+# comments by disqus
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "ahrvoje"
 
 
 # pagination for blog page
@@ -69,17 +69,6 @@ defaults:
       toc_label: "Contents"
       read_time: false
       comments: true
-  # portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      author_profile: false
-      excerpt: ""
-      sidebar:
-        nav: "portfolio"
 
 # collections
 collections:
-  portfolio:
-    output: true

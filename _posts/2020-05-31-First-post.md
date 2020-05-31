@@ -1,0 +1,17 @@
+---
+title:  "First post"
+category: posts
+date: 2020-05-31
+excerpt: "Abstract."
+comments: true
+---
+
+### Section 1
+
+$$ E = m \cdot c^2 $$
+
+<!-------------------------------- FOOTER ----------------------------> 
+
+[^fnote_1]: Footnote 1.
+
+[^fnote_2]: Footnote 2. 
