@@ -1,10 +1,12 @@
 ---
 title:  "First post"
-category: posts
-classes: wide
+categories:
+    - posts
 date: 2020-05-31
-excerpt: "Abstract."
-comments: true
+excerpt: "Short desc"
+tags:
+    - Tag1
+    - Tag2
 ---
 
 ### Section 1
