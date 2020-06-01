@@ -1,7 +1,6 @@
 ---
 title:  "First post"
-categories:
-    - posts
+classes: wide
 date: 2020-05-31
 excerpt: "Short desc"
 tags:
