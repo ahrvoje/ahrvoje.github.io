@@ -413,11 +413,11 @@
 
   @include breakpoint($large) {
     float: right;
-    width: 100%;
+    width: 100% - 200px;
   }
 
   @include breakpoint($x-large) {
-    width: 100%;
+    width: 100% - 200px;
   }
 
   a {
