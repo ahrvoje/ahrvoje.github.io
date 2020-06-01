@@ -25,14 +25,14 @@
   @include breakpoint($large) {
     float: right;
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
   }
 
   @include breakpoint($x-large) {
     width: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 160px;
+    padding-right: 160px;
   }
 
   .page__inner-wrap {
@@ -413,11 +413,11 @@
 
   @include breakpoint($large) {
     float: right;
-    width: 100% - 200px;
+    width: 100% - 320px;
   }
 
   @include breakpoint($x-large) {
-    width: 100% - 200px;
+    width: 100% - 320px;
   }
 
   a {
