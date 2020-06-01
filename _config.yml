@@ -55,16 +55,18 @@ defaults:
     values:
       layout: single
       classes: wide
+      author_profile: true
       mathjax: true
-      author_profile: false
       title: ""
       title_separator: "|"
   # posts
   - scope:
+      path: ""
       type: posts
     values:
       layout: single
       classes: wide
+      author_profile: false
       read_time: false
 
 # collections
