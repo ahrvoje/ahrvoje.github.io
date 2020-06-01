@@ -54,9 +54,9 @@ defaults:
       path: ""
     values:
       layout: single
-      mathjax: true
-      author_profile: true
       classes: wide
+      mathjax: true
+      author_profile: false
       title: ""
       title_separator: "|"
   # posts
