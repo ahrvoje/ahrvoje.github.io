@@ -1,5 +1,5 @@
-# [ahrvoje.github.io/posts/test.html](Enjoying the details)
+# [Enjoying the details](ahrvoje.github.io/posts/test.html)
 
-[ahrvoje.github.io/posts/test.html](Test)
+[Test](ahrvoje.github.io/posts/test.html)
 
-[ahrvoje.github.io/posts/test_free.html](Test dependency free)
+[Test dependency free](ahrvoje.github.io/posts/test_free.html)
