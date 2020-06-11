@@ -1,4 +1,4 @@
-# [Enjoying the details](https://ahrvoje.github.io/posts/test.html)
+# [Enjoying the details](https://ahrvoje.github.io/)
 
 [Test](https://ahrvoje.github.io/posts/test.html)
 
