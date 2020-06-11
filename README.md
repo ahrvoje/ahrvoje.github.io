@@ -1,2 +1,3 @@
-# ahrvoje.github.io
-[ahrvoje.github.io](https://ahrvoje.github.io)
+# Enjoying the details
+[ahrvoje.github.io/posts/test.html](Test)
+[ahrvoje.github.io/posts/test_free.html](Test dependency free)
