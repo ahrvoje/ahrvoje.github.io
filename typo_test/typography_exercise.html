@@ -2,7 +2,7 @@
 <head>
 <style>
 @font-face {
-    font-family: 'Alegrea';
+    font-family: 'Alegreya';
     src: url(data:font/truetype;charset=utf-8;base64,AAEAAAARAQAABAAQR0RFRmPyXKgAA7IkAAADgkdQT1PhRzQAAAO1qAAArqJHU1VCIf9KXQAEZEwA
 ADgkT1MvMjU81WIAAzz8AAAAYGNtYXBmWD6iAAM9XAAADVhjdnQgPyUZiwADWRAAAAEkZnBnbVUo
 joAAA0q0AAANbWdhc3AAAAAQAAOyHAAAAAhnbHlmuQswpQAAARwAAvs3aGVhZA6jcR4AAxyMAAAA
@@ -5305,8 +5305,6 @@ AAgAAgAoABEC+AL5AvgB8QL5Bq4GrwawBrEGsgazBrQGtQa2BrcBrAGsAAEAEQADAH8A/QFAAXoG
 uAa5BroGuwa8Br0Gvga/BsAGwQblBwsAAQAAAAEACAABAAYAswABAAEBQAABAAAAAQAIAAIAMgAW
 APYA9wD4APkA+gD7APwB9AH1AfsB9gH3AfgB+QH6AfQB9QH2AfcB+AH5AfoAAQAWACAAJwBTAGgA
 cgDfAOUBGgEhAUABTQFlAW4B2gHgAiACJwJVAm4CdwLiAug= ) format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
 * {
     margin: 0;
@@ -5317,11 +5315,11 @@ body {
     font-size: 1.5em;
 }
 article {
-    width: 28em;
+    width: 40%;
     margin: 2em auto 2em auto;
 }
 p {
-    font-family: Alegrea;
+    font-family: Alegreya;
     line-height: 1.2em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -5341,37 +5339,24 @@ p {
     margin-top:0.26em;
     opacity:0.5;
 }
-.drop_A { width:0.76em; height:0.48em; margin-left:-0.06em;}
-.drop_L { width:0.63em; height:0.47em; margin-left:-0.08em;}
-.drop_Q { width:0.76em; height:0.675em; margin-left:-0.08em;}
-.start0 { margin-left:-1.1em; }
-.start1 { margin-left:-1.1em; }
-.start2 { margin-left:-1.2em; }
-.start3 { margin-left:-0.6em; }
-.start4 { margin-left:-0.3em; }
-.start5 { margin-left:-0.3em; }
-.first_letter { color:#dD3529; opacity:0.9;}
+.drop_A { width:0.76em; height:0.48em; margin-left:-0.06em; shape-outside:polygon(0.32em 0, 0.32em 0.72em, 0.7em 0.72em)}
+.drop_L { width:0.63em; height:0.47em; margin-left:-0.08em; shape-outside:polygon(0.2em 0, 0.2em 0.72em, 0.55em 0.72em, 0.55em 0.55em, 0.28em 0.55em, 0.28em 0)}
+.drop_Q { width:0.76em; height:0.675em; margin-left:-0.08em; shape-outside:polygon(0.4em 0, 0.7em 0.35em, 0.65em 0.45em, 0.5em 0.7em, 0.67em 0.92em, 0.35em 0.8em)}
+.first_letter { color:#dD3529; margin-left:0.15em; opacity:0.9;}
 </style>
 </head>
 <body>
 <article>
     <p>
-    <span class="drop_L">L</span>
-    <span class="start0">orem</span> ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    <span class="start1"eiusmod</span> tempor incididunt ut labore et dolore magna aliqua. <span class="first_letter">U</span>t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span class="first_letter">D</span>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="first_letter">E</span>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <span class="drop_L">L</span> orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="first_letter">U</span>t enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span class="first_letter">D</span>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="first_letter">E</span>xcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <div class="fleuron">&#10087;</div>
     <p>
-    <span class="drop_A">A</span>
-    <span class="start2">t</span> vero eos et accusamus et iusto odio dignissimos ducimus qui
-    <span class="start3">blanditiis</span> praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <span class="first_letter">E</span>t harum quidem rerum facilis est et expedita distinctio. <span class="first_letter">N</span>am libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. <span class="first_letter">T</span>emporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. <span class="first_letter">I</span>taque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+    <span class="drop_A">A</span> t vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. <span class="first_letter">E</span>t harum quidem rerum facilis est et expedita distinctio. <span class="first_letter">N</span>am libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. <span class="first_letter">T</span>emporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. <span class="first_letter">I</span>taque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
     </p>
     <div class="fleuron">&#10087;</div>
     <p>
-    <span class="drop_Q">Q</span>
-    <span class="start4">uisque</span> efficitur turpis nec ante vulputate, vel commodo neque
-    elementum. <span class="first_letter">M</span>orbi eu massa nibh. <span class="first_letter">S</span>uspendisse hendrerit est
-    <span class="start4">egestas</span> libero efficitur euismod. <span class="first_letter">E</span>tiam lacus leo, placerat non lacus in, hendrerit dictum quam. <span class="first_letter">I</span>n nibh tellus, tincidunt a luctus sollicitudin, facilisis in augue. <span class="first_letter">S</span>ed sagittis placerat nisl quis molestie. <span class="first_letter">N</span>unc cursus est at odio imperdiet commodo.
+    <span class="drop_Q">Q</span> uisque efficitur turpis nec ante vulputate, vel commodo neque elementum. <span class="first_letter">M</span>orbi eu massa nibh. <span class="first_letter">S</span>uspendisse hendrerit est egestas libero efficitur euismod. <span class="first_letter">E</span>tiam lacus leo, placerat non lacus in, hendrerit dictum quam. <span class="first_letter">I</span>n nibh tellus, tincidunt a luctus sollicitudin, facilisis in augue. <span class="first_letter">S</span>ed sagittis placerat nisl quis molestie. <span class="first_letter">N</span>unc cursus est at odio imperdiet commodo.
 </p>
 </article>
 </body>
