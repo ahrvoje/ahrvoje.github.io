@@ -1,0 +1,35 @@
+body {
+  background-color: #fff8e7;
+}
+
+a:link {
+  text-shadow: none;
+}
+
+h1.title {
+    width: 55%;
+    text-align: center;
+}
+
+h4.author {
+    margin: 0.3em 0;
+    width: 55%;
+    text-align: center;
+}
+
+h4.date {
+    margin: 0.3em 0;
+    width: 55%;
+    text-align: center;
+}
+
+/* The navigation bar */
+.navbar {
+  background: #fff8e7;
+  color: rgba(0.066, 0.066, 0.066, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-width: 50em;
+  display:flex;
+}
