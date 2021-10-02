@@ -6,6 +6,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  *
  * Date: Tue Feb 16, 2016
+ *       Sat Oct 02, 2021
  */
 
 Tests = (function () {
@@ -16,8 +17,8 @@ Tests = (function () {
             name: 'Game serialization',
             count: defaultCount,
             groupSize: defaultGroupSize,
-            prologText: 'Game 10,000 (de)serializations running...\n',
-            epilogText: 'Test finished.\n',
+            prologText: '10,000 game (de)serialization checks running...\n',
+            epilogText: 'Test finished OK.\n',
             blocking: false,
             exec: function () {
                 var position, serialized, deserialized;
@@ -39,8 +40,8 @@ Tests = (function () {
             name: 'Position serialization',
             count: defaultCount,
             groupSize: defaultGroupSize,
-            prologText: 'Position 10,000 (de)serializations running...\n',
-            epilogText: 'Test finished.\n',
+            prologText: '10,000 position (de)serialization checks running...\n',
+            epilogText: 'Test finished OK.\n',
             blocking: true,
             exec: function () {
                 var position, position2;
@@ -60,8 +61,8 @@ Tests = (function () {
             name: 'Case#1 moves serialization',
             count: 1,
             groupSize: 1,
-            prologText: 'Case#1 moves (de)serialization running...\n',
-            epilogText: 'Test finished.\n',
+            prologText: 'Case#1 moves (de)serialization check running...\n',
+            epilogText: 'Test finished OK.\n',
             blocking: true,
             exec: function () {
                 var moves = [[8,2],[9,4],[4,11],[6,8],[10,4],[7,1],[3,10],[1,5],[6,10],[9,11],[5,3],[1,9],[6,9],[3,4],
@@ -83,7 +84,7 @@ Tests = (function () {
             name: 'Moves serialization',
             count: defaultCount,
             groupSize: defaultGroupSize,
-            prologText: 'Moves 10,000 (de)serializations running...\n',
+            prologText: '10,000 moves (de)serialization checks running...\n',
             epilogText: 'Test finished.\n',
             blocking: true,
             exec: function () {
@@ -111,8 +112,8 @@ Tests = (function () {
             name: 'Times serialization',
             count: defaultCount,
             groupSize: defaultGroupSize,
-            prologText: 'Times 10,000 (de)serializations running...\n',
-            epilogText: 'Test finished.\n',
+            prologText: '10,000 times (de)serialization checks running...\n',
+            epilogText: 'Test finished OK.\n',
             blocking: true,
             exec: function () {
                 var randomDelta, n, i, deltas, times, times2, deltas2, result;
@@ -250,7 +251,7 @@ Tests = (function () {
 
                 if (testIndex + 1 == tests.length) {
                     stopTest();
-                    log("All tests finished.\n");
+                    log("All tests finished OK.\n");
                 }
             }
         },

@@ -6,6 +6,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  *
  * Date: Thu Apr 23, 2015
+ *       Sat Oct 02, 2021
  */
 
 
@@ -471,7 +472,8 @@ Serializer2 = (function () {
 
 
 Serializer3 = (function () {
-    const b64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_",
+    const
+        b64="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_",
 
         dx_encode = {
               "0":"11",
@@ -570,7 +572,7 @@ Serializer3 = (function () {
         ,
 
         movesComponentToString = function (moves, component, huffman_table) {
-            let i, deltas=[], huffman, leadingZeros, base71;
+            let i, deltas=[], huffman, leadingZeros, base64;
 
             for (i = 1; i < moves.length; i++) {
                 deltas.push(moves[i][component] - moves[i-1][component])
@@ -578,15 +580,15 @@ Serializer3 = (function () {
 
             huffman = huffman_encode(deltas, huffman_table);
             leadingZeros = huffman.indexOf('1');
-            base71 = longX_to_longY(huffman, 2, 43, 71, 7);
+            base64 = longX_to_longY(huffman, 2, 6, 64, 1);
 
-            return baseX_to_baseY(String(moves[0][component]), 10, 71) + baseX_to_baseY(String(leadingZeros), 10, 71) + topZeros(base71)
+            return baseX_to_baseY(String(moves[0][component]), 10, 64) + baseX_to_baseY(String(leadingZeros), 10, 64) + topZeros(base64)
         },
 
         componentStringToMoves = function (movesStringComponent, huffman_table) {
-            let firstMove = Number(baseX_to_baseY(movesStringComponent[0], 71, 10));
-            let leadingZeros = Number(baseX_to_baseY(movesStringComponent[1], 71, 10));
-            let huffman = padZeros(topZeros(longX_to_longY(movesStringComponent.substring(2), 71, 7, 2, 43)), leadingZeros);
+            let firstMove = Number(baseX_to_baseY(movesStringComponent[0], 64, 10));
+            let leadingZeros = Number(baseX_to_baseY(movesStringComponent[1], 64, 10));
+            let huffman = padZeros(topZeros(longX_to_longY(movesStringComponent.substring(2), 64, 1, 2, 6)), leadingZeros);
             let deltas = huffman_decode(huffman, huffman_table);
             let movesComponent = [firstMove];
 
@@ -598,6 +600,10 @@ Serializer3 = (function () {
         },
 
         serializeMoves = function (moves) {
+            if (moves.length == 0) {
+                return
+            }
+
             let stringX = movesComponentToString(moves, 0, dx_encode);
             let stringY = movesComponentToString(moves, 1, dy_encode);
 
@@ -605,7 +611,7 @@ Serializer3 = (function () {
         },
 
         deserializeMoves = function (movesString) {
-            if (movesString === undefined) {
+            if (movesString === "undefined") {
                 return false
             }
 
@@ -622,6 +628,10 @@ Serializer3 = (function () {
         },
 
         serializeTimes = function (times) {
+            if (times.length == 0) {
+                return
+            }
+
             let deltas=[];
             for (i = 1; i < times.length; i++) {
                 deltas.push(times[i] - times[i-1])
@@ -637,22 +647,22 @@ Serializer3 = (function () {
                 coded += second_digit_encode[second_digit];
             }
 
-            return topZeros(baseX_to_baseY(String(times[times.length - 1]), 10, 71)) + "," +
-                topZeros(baseX_to_baseY(String(coded.indexOf('1')), 10, 71)) +
-                topZeros(longX_to_longY(coded, 2, 43, 71, 7))
+            return topZeros(baseX_to_baseY(String(times[times.length - 1]), 10, 64)) + "," +
+                topZeros(baseX_to_baseY(String(coded.indexOf('1')), 10, 64)) +
+                topZeros(longX_to_longY(coded, 2, 6, 64, 1))
         },
 
         deserializeTimes = function (timesString) {
-            if (timesString === undefined) {
+            if (timesString === "undefined") {
                 return false
             }
 
             let splits = timesString.split(",");
-            let time_base71 = splits[0], coded = splits[1];
-            let total_time = Number(baseX_to_baseY(time_base71, 71, 10));
-            let leadingZeros = Number(baseX_to_baseY(coded[0], 71, 10));
+            let time_base64 = splits[0], coded = splits[1];
+            let total_time = Number(baseX_to_baseY(time_base64, 64, 10));
+            let leadingZeros = Number(baseX_to_baseY(coded[0], 64, 10));
 
-            coded = padZeros(topZeros(longX_to_longY(coded.substring(1), 71, 7, 2, 43)), leadingZeros);
+            coded = padZeros(topZeros(longX_to_longY(coded.substring(1), 64, 1, 2, 6)), leadingZeros);
 
             let i, j, first_digit, second_digit, logs = [];
             for (i = 0; i < coded.length;) {
@@ -701,7 +711,7 @@ Serializer3 = (function () {
         }),
 
         serializeGame = (position, moves, times) =>
-            ["3", serializePosition(position), serializeMoves(moves), serializeTimes(times)].join('=')
+            ["v=3", "p=" + serializePosition(position), "m=" + serializeMoves(moves), "t=" + serializeTimes(times)].join('&')
     ;
 
     // Serializer3 API
