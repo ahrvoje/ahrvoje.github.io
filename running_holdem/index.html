@@ -11,7 +11,7 @@
 <body class="stackedit">
   <div class="stackedit__html"><h1 id="running-holdem">Running hold’em</h1>
 <p>We extend on the <a href="https://www.vdacs.virginia.gov/pdf/RobertsRules.pdf">“Robert’s Rules of Poker”</a> (RRoP) and specify the rules for generalized multiple run variant of the game for any <em>inactive pot</em> at any stage of the game for any number of players.</p>
-<p>Lately it became popular to give cash game players an option to agree on running heads-up all-in pot multiple times, thus reducing a payout variance with only slight skew of the winning odds, e.g. <a href="https://www.youtube.com/watch?v=XCL9_2gRZI0">this epic rundown</a>. The pot is split into <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">n</span></span></span></span></span> as-similar parts, every part is played as a separate run, and as such awarded to the run winner independently of other runs.</p>
+<p>Lately it became popular to give cash game players an option to agree on running heads-up all-in pot multiple times, thus reducing a payout variance with only slight skew of the winning odds, e.g. <a href="https://www.youtube.com/watch?v=XCL9_2gRZI0">this epic rundown</a>. The pot is split into <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">n</span></span></span></span></span> as-similar parts, every part is played separately, and as such awarded to the run winner independently of other runs.</p>
 <p>It may be of interest to provide the generalized rules to allow for any <em>inactive pot</em> to be run multiple times, not only in a heads-up situation.</p>
 <h2 id="rrop-extension---ties-multiple-odd-smallest-chips">RRoP EXTENSION - Ties: Multiple odd smallest chips</h2>
 <ol start="5">
@@ -25,74 +25,89 @@
 <li>If all pot stakeholders agree on running the pot some explicit number of times larger than 1, the pot will be annotated as such, and run multiple times after the main hand has been drawn, and after multiple runs have been dealt for earlier multi-run pots.</li>
 <li>Upon running the pot <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">n</span></span></span></span></span> times, pot will split into <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathnormal">n</span></span></span></span></span> as-similar parts called <em>running pots</em>, in order of decreasing size, with the largest difference between them being 1 smallest chip.<br>
 EXAMPLE: If an <em>inactive pot</em> of 20 smallest chips is to be run 3 times, it will be split and ordered into 3 <em>running pots</em> of sizes 7, 7, 6 smallest chips.</li>
-<li>Depending on the stage of the game the pot was formed, remaining cards will be drawn remaining number of times in a way that the main hand cards are used for stages of the game before the pot was formed; if existing, previous <em>running pots’</em> cards are reused for runs for later stages of the game, and only extra missing number of runs will be drawn in addition.<br>
-EXAMPLE 1: <em>Inactive pot</em> is formed at flop, and is agreed to be run 3 times. After the main hand has been drawn, we return to this <em>inactive pot</em> to execute the remaining runs. Same main hand flop community cards are used for all 3 runs. First of 3 runs is decided and awarded based on the main hand turn &amp; river, and additional 2 sets of turn &amp; river are drawn to decide the remaining 2 runs.<br>
-EXAMPLE 2: <em>Inactive pot</em> is formed at flop, and is agreed to be run 3 times. One <em>older</em> 2-runs pre-flop <em>inactive pot</em> was formed before this one. After the main hand has been drawn, we return to the <em>older</em> 2-runs <em>inactive pot</em> to execute its remaining run. After that <em>older</em> pot is resolved we come to decide our flop <em>inactive pot</em> runs. Same main hand flop community cards are used for all 3 runs. One set of the main hand turn &amp; river is used for the first run, one set of turn &amp; river is reused from the second run of the <em>older</em> pot, and just one additional set of turn &amp; river has to be drawn for the third run of our pot.</li>
+<li>Multiple runs are executed as follows: the main hand community cards are used for stages of the game before the pot was formed; also the main hand community cards are used for the first run for later stages after the pot was formed; if existing, previous <em>running pots’</em> cards are reused for runs for later stages of the game; only extra missing number of the runs will in addition be drawn from the deck.<br>
+EXAMPLE 1: <em>Inactive pot</em> is formed at flop, and is agreed to be run 3 times. After the main hand community cards has been drawn, we return to this <em>inactive pot</em> to execute the remaining runs. Same main hand flop community cards are used for all 3 runs. First of the 3 runs is decided based on the main hand turn &amp; river and is immediately awarded to the winner, then 2 additional sets of turn &amp; river are drawn from the deck to decide the remaining 2 runs.<br>
+EXAMPLE 2: <em>Inactive pot</em> is formed at flop, and is agreed to be run 3 times. One <em>older</em> 2-runs pre-flop <em>inactive pot</em> was formed before this one. After the main hand has been drawn, we return to the <em>older</em> 2-runs <em>inactive pot</em> to execute its remaining run. After that <em>older</em> pot is resolved, we come to decide our flop <em>inactive pot</em> runs. Same main hand flop community cards are used for all 3 runs. One set of the main hand turn &amp; river is used for the first run; one set of turn &amp; river is reused from the second run of the <em>older</em> pot; just one additional set of turn &amp; river has to be drawn to decide the third run of our pot.</li>
 <li>Every run is awarded to a run winner independently of other runs.</li>
 <li>In the case of a tie <em>running pot</em> is split via usual RRoP tie rules, including 5. (e) extension for multiple odd chips.</li>
 </ol>
 <h2 id="comments">Comments</h2>
 <p>It could be of theoretical or practical interest to be aware of the following effects of <em>running it multiple times</em>:</p>
 <ol>
-<li>If two players collude on running it multiple times against each other, but not while some other player is active, they will play under a reduced risk and can afford on putting additional pressure on other players, e.g. via more frequent all-ins.</li>
+<li>If two players collude on running it multiple times against each other, but not while some other player is active, they will play under reduced risk and can afford on putting additional pressure on other players, e.g. via more frequent all-ins.</li>
 <li>Running it multiple times reduces payout variance, so it reduces a probability (frequency) of bust events. Consequently expected number of buy-ins per hour is decreased, and so is a cash flow compared to a normal game.</li>
-<li>Allowing it to run multiple times reduces the risk which makes a game easier from risk management point of view, thus not punishing big risk management errors as much and reducing the principle at the heart of the game.</li>
+<li>Allowing it to run multiple times reduces the risk which makes a game softer from risk management point of view, thus not punishing big risk management errors as much - some professional players prefer harder risk environment then to allow for weak players to get away with their errors.</li>
 <li>All bets are generally done on a basic assumption of a single run with corresponding risk effects, which are than different after stakeholders decide to run it multiple times. This doesn’t put any player in a disadvantage as all stakeholders have to agree to run it multiple times.</li>
 <li>Running it multiple times make players spend more time on a game mechanics instead on <em>playing poker</em>.</li>
 <li>If majority of players tend to run it multiple times, one player can be put into a position of social pressure by risking of giving an impression of being unfriendly if not conforming.</li>
 <li>In a case of many multiple runs it can become overwhelming for a dealer to manage the table.</li>
 </ol>
 <h2 id="appendix">Appendix</h2>
-<h3 id="elaborate-example-1">Elaborate example 1:</h3>
-<h3 id="elaborate-example-2">Elaborate example 2:</h3>
+<h3 id="elaborate-example-">Elaborate example :</h3>
 <h3 id="statistics">Statistics:</h3>
+<h4 id="two-players-pre-flop-runs">Two players pre-flop runs:</h4>
 
 <table>
 <thead>
 <tr>
 <th>Pocket</th>
 <th>Pre-flop win odds</th>
+<th>Payout average</th>
 <th>Payout variance</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>runs</td>
+<td></td>
 <td>_1___2___3___4___5</td>
 <td>_1___2___3___4___5</td>
 </tr>
 <tr>
 <td><strong>AA</strong> vs <strong>KK</strong></td>
-<td>82% ??% ??% ??% ??%</td>
+<td>82%</td>
+<td>??% ??% ??% ??% ??%</td>
 <td>0.?? 0.?? 0.?? 0.?? 0.??</td>
 </tr>
 <tr>
 <td><strong>AA</strong> vs <strong>22</strong></td>
-<td>83% ??% ??% ??% ??%</td>
+<td>83%</td>
+<td>??% ??% ??% ??% ??%</td>
 <td>0.?? 0.?? 0.?? 0.?? 0.??</td>
 </tr>
 <tr>
 <td><strong>AA</strong> vs <strong>A9</strong>o</td>
-<td>93% ??% ??% ??% ??%</td>
+<td>93%</td>
+<td>??% ??% ??% ??% ??%</td>
 <td>0.?? 0.?? 0.?? 0.?? 0.??</td>
 </tr>
 <tr>
 <td><strong>AK</strong>o vs <strong>22</strong></td>
-<td>47% ??% ??% ??% ??%</td>
+<td>47%</td>
+<td>??% ??% ??% ??% ??%</td>
 <td>0.?? 0.?? 0.?? 0.?? 0.??</td>
 </tr>
 <tr>
 <td><strong>Q2</strong>o vs <strong>JT</strong>s</td>
-<td>50% ??% ??% ??% ??%</td>
+<td>50%</td>
+<td>??% ??% ??% ??% ??%</td>
+<td>0.?? 0.?? 0.?? 0.?? 0.??</td>
+</tr>
+<tr>
+<td><strong>AA</strong> vs <strong>AA</strong></td>
+<td>2.2%</td>
+<td>??% ??% ??% ??% ??%</td>
 <td>0.?? 0.?? 0.?? 0.?? 0.??</td>
 </tr>
 <tr>
 <td><strong>22</strong> vs <strong>22</strong></td>
-<td>2.1% ??% ??% ??% ??%</td>
+<td>2.1%</td>
+<td>??% ??% ??% ??% ??%</td>
 <td>0.?? 0.?? 0.?? 0.?? 0.??</td>
 </tr>
 </tbody>
-</table><p><a href="mailto:ahrvoje@gmail.com">ahrvoje@gmail.com</a>, Zagreb, December 2021</p>
+</table><p>single run case: <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mi>a</mi><mi>y</mi><mi>o</mi><mi>u</mi><mi>t</mi><mi mathvariant="normal">_</mi><mi>a</mi><mi>v</mi><mi>e</mi><mi>r</mi><mi>a</mi><mi>g</mi><mi>e</mi><mo>=</mo><mi>w</mi><mi>i</mi><mi>n</mi><mi>n</mi><mi>i</mi><mi>n</mi><mi>g</mi><mi mathvariant="normal">_</mi><mi>o</mi><mi>d</mi><mi>d</mi><mi>s</mi><mo>+</mo><mn>0.5</mn><mo>⋅</mo><mi>s</mi><mi>p</mi><mi>l</mi><mi>i</mi><mi>t</mi><mi mathvariant="normal">_</mi><mi>o</mi><mi>d</mi><mi>d</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">payout\_average = winning\_odds + 0.5 \cdot split\_odds</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.92508em; vertical-align: -0.31em;"></span><span class="mord mathnormal">p</span><span class="mord mathnormal">a</span><span class="mord mathnormal">yo</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord" style="margin-right: 0.02778em;">_</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right: 0.03588em;">v</span><span class="mord mathnormal" style="margin-right: 0.02778em;">er</span><span class="mord mathnormal">a</span><span class="mord mathnormal" style="margin-right: 0.03588em;">g</span><span class="mord mathnormal">e</span><span class="mspace" style="margin-right: 0.277778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.277778em;"></span></span><span class="base"><span class="strut" style="height: 1.00444em; vertical-align: -0.31em;"></span><span class="mord mathnormal" style="margin-right: 0.02691em;">w</span><span class="mord mathnormal">innin</span><span class="mord mathnormal" style="margin-right: 0.03588em;">g</span><span class="mord" style="margin-right: 0.02778em;">_</span><span class="mord mathnormal">o</span><span class="mord mathnormal">dd</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 0.64444em; vertical-align: 0em;"></span><span class="mord">0.5</span><span class="mspace" style="margin-right: 0.222222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right: 0.222222em;"></span></span><span class="base"><span class="strut" style="height: 1.00444em; vertical-align: -0.31em;"></span><span class="mord mathnormal">s</span><span class="mord mathnormal" style="margin-right: 0.01968em;">pl</span><span class="mord mathnormal">i</span><span class="mord mathnormal">t</span><span class="mord" style="margin-right: 0.02778em;">_</span><span class="mord mathnormal">o</span><span class="mord mathnormal">dd</span><span class="mord mathnormal">s</span></span></span></span></span></p>
+<p><a href="mailto:ahrvoje@gmail.com">ahrvoje@gmail.com</a>, Zagreb, December 2021</p>
 </div>
 </body>
 
