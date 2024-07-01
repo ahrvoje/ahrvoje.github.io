@@ -13,7 +13,7 @@ Net zero winding can be easily checked by illustration of the contour cycle:
 
 <img src="Jordan-Pochhammer_cycle.png" alt="Jordan-Pochhamer cycle" width="450" style="background-color:white;">
 
-Jordan-Pochhammer contour is an example of commutator contour for two points. The question is can such contour be constructed given n points, and how? The answer is positive, and the paper on [Picture-hanging puzzles][2] offers two constructions, exponential and polynomial.
+Jordan-Pochhammer contour is an example of commutator contour for two points. The question is can such contour be constructed given n points, and how? The answer is positive, and the paper [[3]](#3) on picture-hanging puzzles offers two constructions, exponential and polynomial.
 
 We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_n$ being winding the curve around point $1$ clockwise and $x_n^{-1}$ for winding counterclockwise.
 
@@ -93,6 +93,8 @@ Both solutions example for picture-hanging problem:
 
 *Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator $x_1 x_2 x_1^{-1} x_2^{-1}$ and [[7]](#7) with $x_1 x_2^{-1} x_1^{-1} x_2$.*
 
+TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles.
+
 A year ago I accidentaly encountered on a small gem, a modest scan of the page of Schrodinger's legendary notebook containing the first record of his equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
 
 <img src="schrodinger_contour.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="700" style="background-color:white;">
@@ -133,22 +135,22 @@ I would be interested in obtaining more examples of application of commutator co
 Camille Jordan, Cours d'analyse de l'École polytechnique, 1887, Vol. 3, pg. 242-244 https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up
 
 <a id="2">[2]</a>
-https://en.wikipedia.org/wiki/Pochhammer_contour Jordan-Pochhammer contour
+[https://en.wikipedia.org/wiki/Pochhammer_contour](https://en.wikipedia.org/wiki/Pochhammer_contour) Jordan-Pochhammer contour
 
 <a id="3">[3]</a>
-https://arxiv.org/abs/1203.3602 Picture-hanging puzzles
+[https://arxiv.org/abs/1203.3602](https://arxiv.org/abs/1203.3602) Picture-hanging puzzles
 
 <a id="4">[4]</a>
-http://www.mathpuzzle.com/hangingpicture.htm Ed Pegg Jr., Picture hanging, 2002
+[http://www.mathpuzzle.com/hangingpicture.htm](http://www.mathpuzzle.com/hangingpicture.htm) Ed Pegg Jr., Picture hanging, 2002
 
 <a id="5">[5]</a>
-https://dlmf.nist.gov/13.4 Integral representation of Kummer function
+[https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4) Integral representation of Kummer function
 
 <a id="6">[6]</a>
-https://zenodo.org/records/1428390 Pochhammer, L. (1890), Zur Theorie der Euler'schen Integrale, Mathematische Annalen, 35 (4), pg. 499
+[https://zenodo.org/records/1428390](https://zenodo.org/records/1428390) Pochhammer, L. (1890), Zur Theorie der Euler'schen Integrale, Mathematische Annalen, 35 (4), pg. 499
 
 <a id="7">[7]</a>
-https://laurentlessard.com/bookproofs/hanging-a-picture-frame/
+[https://laurentlessard.com/bookproofs/hanging-a-picture-frame/](https://laurentlessard.com/bookproofs/hanging-a-picture-frame/)
 
 <a id="8">[8]</a>
 R. Courant, D. Hilbert, Methods of Mathematical Physics, Vol. 1, Interscience (Wiley) New York, 1962.
