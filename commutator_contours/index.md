@@ -4,15 +4,15 @@
 I accidentally noticed that some contours with special properties, commutator contours, appear as a solution of two rather distinct problems: picture-hanging puzzles and integral representations of special functions. In this post we will unify these two stories.
 
 ## Commutator contours
-Camille Jordan was first to introduce the concept of commutator contour in his legendary Cours d'Analyse [[1]](#1) in 1887, which to regret of many was never translated into English. As he introduced it first I will call it Jordan-Pochhammer contour, not only Pochhammer contour as most often referenced by formal sources. As described in the Wikipedia article on Jordan-Pochhamer contour [[2]](#2):
+Camille Jordan was first to introduce the concept of commutator contour in his legendary Cours d'Analyse [[1]](#1) in 1887, which to regret of many was never translated into English. As he introduced it first I will call it Jordan-Pochhammer contour, not only Pochhammer contour as most often referenced by formal sources. As described in the Wikipedia article on Jordan-Pochhammer contour [[2]](#2):
 
 > *A Pochhammer contour winds clockwise around one point, then clockwise around another point, then counterclockwise around the first point, then counterclockwise around the second. ... Its winding number about any point is 0 despite the fact that within the doubly punctured plane it cannot be shrunk to a single point.*
 
-<img src="Jordan-Pochhammer_curve.png" alt="Jordan-Pochhamer contour" width="450" style="background-color:white;">
+<img src="Jordan-Pochhammer_curve.png" alt="Jordan-Pochhammer contour" width="450" style="background-color:white;">
 
 Net zero winding can be easily checked by illustration of the contour cycle:
 
-<img src="Jordan-Pochhammer_cycle.png" alt="Jordan-Pochhamer cycle" width="450" style="background-color:white;">
+<img src="Jordan-Pochhammer_cycle.png" alt="Jordan-Pochhammer cycle" width="450" style="background-color:white;">
 
 Jordan-Pochhammer contour is an example of commutator contour for two points. The question is can such contour be constructed given n points, and how? The answer is positive, and the paper [[3]](#3) on picture-hanging puzzles offers two constructions, exponential and polynomial.
 
@@ -74,7 +74,7 @@ As mentioned, Camille Jordan was the first to introduce the concept of commutato
 
 *NIST Handbook of special functions, 13.4, [https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4)*
 
-The handbook also contains the presentation of Jordan-Pochhammer contour used in integral representation of Beta function. Leo Pochhamer visualized it for the first time in "Zur Theorie der Euler'schen Integrale" [[6]](#6) in 1890 in a bit different manner as presented in the Appendix.
+The handbook also contains the presentation of Jordan-Pochhammer contour used in integral representation of Beta function. Leo Pochhammer visualized it for the first time in "Zur Theorie der Euler'schen Integrale" [[6]](#6) in 1890 in a bit different manner as presented in the Appendix.
 
 <img src="F3.mag.png" alt="" width="450" style="background-color:white;">
 
