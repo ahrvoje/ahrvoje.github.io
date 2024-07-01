@@ -59,11 +59,11 @@ As mentioned, corresponding commutator contour is the solution of the Picture-ha
 
 <img src="notation.png" alt="" width="450" style="background-color:white;">
 
-*Picture-hanging solution for two nails problem with the commutator $x_1 x_2 x_1^{-1} x_2^{-1}$*
+*Picture-hanging solution for two nails problem with the commutator* $x_1 x_2 x_1^{-1} x_2^{-1}.$
 
 <img src="solution-3.png" alt="" width="450" style="background-color:white;">
 
-*Picture-hanging solution for three nails problem with the commutator $x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}$*
+*Picture-hanging solution for three nails problem with the commutator* $x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}.$
 
 Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more". The property is a straightforward consequence of the construction described before.
 
