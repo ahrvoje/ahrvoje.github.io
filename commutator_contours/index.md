@@ -72,13 +72,13 @@ As mentioned, Camille Jordan was the first to introduce the concept of commutato
 
 <img src="F1.mag.png" alt="" width="450" style="background-color:white;">
 
-*NIST Handbook of special functions, 13.4, https://dlmf.nist.gov/13.4*
+*NIST Handbook of special functions, 13.4, [https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4)*
 
 The handbook also contains the presentation of Jordan-Pochhammer contour used in integral representation of Beta function. Leo Pochhamer visualized it for the first time in "Zur Theorie der Euler'schen Integrale" [[6]](#6) in 1890 in a bit different manner as presented in the Appendix.
 
 <img src="F3.mag.png" alt="" width="450" style="background-color:white;">
 
-*NIST Handbook of special functions, 5.12, https://dlmf.nist.gov/5.12*
+*NIST Handbook of special functions, 5.12, [https://dlmf.nist.gov/5.12](https://dlmf.nist.gov/5.12)*
 
 TODO: I will here skip the theory of integral representations, which I would very much like to cover due to its elegance and beauty: why commutator contour, topology of Riemann surface, traveling the surface and "collecting" the phase, etc...
 
@@ -104,7 +104,7 @@ A year ago I accidentaly encountered on a small gem, a modest scan of the page o
 
 
 ## Conclusion
-I would be interested in obtaining more examples of application of commutator contours, e.g. 4 or 5 or 6 poles integral representations or in a totaly different domain, and if there has been any generalized treatise to date.
+I would be interested in obtaining more examples of application of commutator contours, e.g. 3 or 4 or more poles integral representations or in a totaly different domain, and if there has been any generalized treatise to date.
 
 ## Appendix
 
