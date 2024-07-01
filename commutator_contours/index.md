@@ -4,7 +4,7 @@
 I accidentally noticed that some contours with special properties, called commutator contours, appear as solutions of two rather distinct problems: picture-hanging puzzles and integral representations of special functions. In this post, we will unify these two stories.
 
 ## Commutator Contours
-Camille Jordan was the first to introduce the concept of the commutator contour in his legendary Cours d'Analyse [[1]](#1) in 1887, which unfortunately was never translated into English. As he introduced it first, I will call it Jordan-Pochhammer contour, rather than just the Pochhammer contour as it most often referenced by formal sources. As described in the Wikipedia article on Jordan-Pochhammer contour [[2]](#2):
+Camille Jordan was the first to introduce the concept of the commutator contour in his legendary Cours d'Analyse [[1]](#1) in 1887, which unfortunately was never translated into English. As he introduced it first, I will call it Jordan-Pochhammer contour, rather than just the Pochhammer contour as most often referenced by formal sources. As described in the Wikipedia article on Jordan-Pochhammer contour [[2]](#2):
 
 > *A Pochhammer contour winds clockwise around one point, then clockwise around another point, then counterclockwise around the first point, then counterclockwise around the second. ... Its winding number about any point is 0 despite the fact that within the doubly punctured plane it cannot be shrunk to a single point.*
 
