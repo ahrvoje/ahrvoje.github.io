@@ -1,6 +1,7 @@
 # On the applications of commutator contours
+*by Hrvoje Abraham, ahrvoje@gmail.com, 01.07.2024.*
 
-It was interesting to notice that some contours with special properties, commutator contours, appear as a solution of two rather distinct problems: picture-hanging puzzles and integral representations of special functions. In this post we will unify these two stories.
+I accidentally noticed that some contours with special properties, commutator contours, appear as a solution of two rather distinct problems: picture-hanging puzzles and integral representations of special functions. In this post we will unify these two stories.
 
 ## Commutator contours
 Camille Jordan was first to introduce the concept of commutator contour in his legendary Cours d'Analyse [[1]](#1) in 1887, which to regret of many was never translated into English. As he introduced it first I will call it Jordan-Pochhammer contour, not only Pochhammer contour as most often referenced by formal sources. As described in the Wikipedia article on Jordan-Pochhamer contour [[2]](#2):
@@ -132,7 +133,7 @@ I would be interested in obtaining more examples of application of commutator co
 
 ## References
 <a id="1">[1]</a>
-Camille Jordan, Cours d'analyse de l'École polytechnique, 1887, Vol. 3, pg. 242-244 https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up
+Camille Jordan, Cours d'analyse de l'École polytechnique, 1887, Vol. 3, pg. 242-244 [https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up](https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up)
 
 <a id="2">[2]</a>
 [https://en.wikipedia.org/wiki/Pochhammer_contour](https://en.wikipedia.org/wiki/Pochhammer_contour) Jordan-Pochhammer contour
