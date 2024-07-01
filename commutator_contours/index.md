@@ -72,6 +72,12 @@ As mentioned, corresponding commutator contour is the solution of The Picture-ha
 
 Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication the entire expression reduces to $1$, which is interpreted as "the knot is no more." The property is a straightforward consequence of the construction described before.
 
+At this point it is interesting to note n-point solutions are not unique. Commutators can be defined in different ways by choosing the symbols we start with. In 2-point example we constructed the commutator with $[x_1, x_2]$. There is another way to do it and that is $[x_1, x_2^{-1}]$, this approach is as valid as any other. This way we get the second solution. Depending on the literature, some use first, some second. Results are the same as the only property we are interested in is commutator contour, any.
+
+<img src="notation.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
+
+*Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator* $x_1 x_2 x_1^{-1} x_2^{-1}$ *and [[7]](#7) with* $x_1 x_2^{-1} x_1^{-1} x_2.$
+
 ## Integral representations of special functions
 As mentioned, Camille Jordan was the first to introduce the concept of commutator contour as a tool for constructing integral representations of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of Mathematical Functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
 
@@ -90,12 +96,6 @@ TODO: I will here skip the theory of integral representations, which I would ver
 The tehnique is also used in integral representations of Legendre functions. With varying number of poles and their configuration there are more than a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page being available in the Appendix:
 
 <img src="legendre_MMP_Courant_Hilbert_507.png" alt="" width="450" style="background-color:white;">
-
-At this point it is interesting to note n-point solutions are not unique. Commutators can be defined in different ways by chosing the symbols we start with. In 2-point example we constructed the commutator with $[x_1, x_2]$. There is another way to do it and that is $[x_1, x_2^{-1}]$, this approach is as valid as any other. This way we get the second solution. Depending on the literature, some use first, some second. Results are the same as the only property we are interested in is commutator contour, any.
-
-<img src="notation.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
-
-*Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator* $x_1 x_2 x_1^{-1} x_2^{-1}$ *and [[7]](#7) with* $x_1 x_2^{-1} x_1^{-1} x_2.$
 
 TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles. It would be nice to utilize polynomial construction and check different configurations of poles and contours.
 
