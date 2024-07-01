@@ -82,7 +82,7 @@ The handbook also contains the presentation of Jordan-Pochhammer contour used in
 
 TODO: I will here skip the theory of integral representations, which I would very much like to cover due to its elegance and beauty: why commutator contour, topology of Riemann surface, traveling the surface and "collecting" the phase, etc...
 
-Related tehnique is used in for integral representations of Legendre functions. With varying number of poles and their configuration there are more than a few cases to cover. One example from, again legendary, Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page available in the Appendix:
+Related tehnique is used in for integral representations of Legendre functions. With varying number of poles and their configuration there are more than a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page available in the Appendix:
 
 <img src="legendre_MMP_Courant_Hilbert_507.png" alt="" width="450" style="background-color:white;">
 
@@ -96,7 +96,7 @@ Both solutions example for picture-hanging problem:
 
 TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles.
 
-A year ago I accidentaly discovered a small gem, a modest scan of the page of Schrodinger's legendary notebook containing the first record of his equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
+A year ago I accidentaly discovered a small gem, a modest scan of the page of Schrodinger's notebook containing the first record of his famous equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
 
 <img src="schrodinger_contour.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="700" style="background-color:white;">
 
