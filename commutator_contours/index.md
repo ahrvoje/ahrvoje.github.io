@@ -68,7 +68,7 @@ As mentioned, corresponding commutator contour is the solution of the Picture-ha
 Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more". The property is a straightforward consequence of the construction described before.
 
 ## Integral representations of special functions
-As mentioned, Camille Jordan was the first to introduce the concept of commutator contour in his legendary Cours d'Analyse [[1]](#1) as a tool for constructing integral representation of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of special functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
+As mentioned, Camille Jordan was the first to introduce the concept of commutator contour as a tool for constructing integral representations of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of special functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
 
 <img src="F1.mag.png" alt="" width="450" style="background-color:white;">
 
@@ -80,7 +80,7 @@ The handbook also contains the presentation of Jordan-Pochhammer contour used in
 
 *NIST Handbook of special functions, 5.12, [https://dlmf.nist.gov/5.12](https://dlmf.nist.gov/5.12)*
 
-TODO: I will here skip the theory of integral representations, which I would very much like to cover due to its elegance and beauty: why commutator contour, topology of Riemann surface, traveling the surface and "collecting" the phase, etc...
+TODO: I will here skip the theory of integral representations, which I would very much like to cover for its elegance and beauty: why commutator contour, topology of Riemann surface, traveling the surface and "collecting" the phase, etc...
 
 Related tehnique is used in for integral representations of Legendre functions. With varying number of poles and their configuration there are more than a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page available in the Appendix:
 
