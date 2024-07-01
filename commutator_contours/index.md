@@ -119,17 +119,17 @@ I would like to express my sincere gratitude to all those who influenced the cre
 
 <img src="jordan_contour_3.png" alt="Camille Jordan, Cours d'Analyse, Ed. 2, Vol. 3, pg. 244" width="600" style="background-color:white;">
 
-*First introduction of the concept of commutator contour by Camille Jordan, Cours d'Analyse, 1887, Ed. 1, Vol. 3, pg. 242-244, [https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up](https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up)*
+*First introduction of the concept of commutator contour by Camille Jordan, 1887* [[1]](#1)
 
 <img src="pochhammer.png" alt="Pochhammer, L. (1890), Zur Theorie der Euler'schen Integrale, Mathematische Annalen, 35 (4), pg. 499" width="600" style="background-color:white;">
 
-*Pochhammer's first visualization of commutator contour in "Zur Theorie der Euler'schen Integrale", 1890*
+*Pochhammer's first visualization of commutator contour in "Zur Theorie der Euler'schen Integrale", 1890* [[6]](#6)
 
 <img src="legendre_MMP_Courant_Hilbert_506.png" alt="" width="600" style="background-color:white;">
 
 <img src="legendre_MMP_Courant_Hilbert_507.png" alt="" width="600" style="background-color:white;">
 
-*Integral representation of Legendre function, Courant, Hilbert, Methods of Mathematical Physics [[8]](#8)*
+*Integral representation of Legendre function from Courant-Hilbert "Methods of Mathematical Physics"* [[8]](#8)
 
 <img src="schrodinger_page.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="600" style="background-color:white;">
 
@@ -137,7 +137,7 @@ I would like to express my sincere gratitude to all those who influenced the cre
 
 ## References
 <a id="1">[1]</a>
-Camille Jordan, Cours d'analyse de l'École polytechnique, 1887, Vol. 3, pg. 242-244 [https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up](https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up)
+Camille Jordan, Cours d'analyse de l'École polytechnique, 1887, Ed. 1, Vol. 3, pg. 242-244 [https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up](https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up)
 
 <a id="2">[2]</a>
 [https://en.wikipedia.org/wiki/Pochhammer_contour](https://en.wikipedia.org/wiki/Pochhammer_contour) Jordan-Pochhammer contour
