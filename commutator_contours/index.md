@@ -22,18 +22,18 @@ We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_n$ be
 In exponential construction 3-point commutator curve can be built starting with 2-point version and than simply checking the 3-point commutator:
 
 $$S_2 = [x_1, x_2] = x_1 x_2 x_1^{-1} x_2^{-1}$$
+
 $$
 \begin{equation*}
 \begin{split}
-S_3 & = [S_2, x_3] = S_2 x_3 S_2^{-1} x_3^{-1} = \\
-      & = (x_1 x_2 x_1^{-1} x_2^{-1}) x_3 (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} x_3^{-1} = \\
-      & = x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}
+S_3 &= [S_2, x_3] = S_2 x_3 S_2^{-1} x_3^{-1} = \\
+    &= (x_1 x_2 x_1^{-1} x_2^{-1}) x_3 (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} x_3^{-1} = \\
+    &= x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}
 \end{split}
 \end{equation*}
 $$
 
-This construction is called exponential as the size of the commutator for one additional point is bigger by factor 2, with additional two entries for $x_n$ and $x_n^{-1}$
-$$S_n = [S_{n-1}, x_n] = S_{n-1} x_n S_{n-1}^{-1} x_n^{-1}.$$
+This construction is called exponential as the size of the commutator for one additional point is bigger by factor 2, with additional two entries for $x_n$ and $x_n^{-1}$, as with every step we get $S_n = [S_{n-1}, x_n] = S_{n-1} x_n S_{n-1}^{-1} x_n^{-1}.$
 
 It is more convenient to use more efficient version if possible, and that one is the polynomial construction designed by Chris Lusby Taylor [[3]](#3), [[4]](#4). For a single point we define $E(i:i)=x_i$, for two points we define $E(i:i+1) = [x_i, x_{i+1}] = x_i x_{i+1} x_i^{-1} x_{i+1}^{-1}$. Now for some specific problem with n points the solution is obtained by recursion
 
@@ -45,7 +45,7 @@ $$
 \begin{equation*}
 \begin{split}
 E(1:4) &= [E(1:2), E(3,4)] = E(1:2) E(3,4) E(3,4)^{-1} E(1:2)^{-1} = \\
-       &= (x_1 x_2 x_1^{-1} x_2^{-1}) (x_3 x_4 x_3^{-1} x_4^{-1}) (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} (x_3 x_4 x_3^{-1} x_4^{-1})^{-1} \\
+       &= (x_1 x_2 x_1^{-1} x_2^{-1}) (x_3 x_4 x_3^{-1} x_4^{-1}) (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} (x_3 x_4 x_3^{-1} x_4^{-1})^{-1} = \\
        &= x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_4 x_3^{-1} x_4^{-1} x_2 x_1 x_2^{-1} x_1^{-1} x_4 x_3 x_4^{-1} x_3^{-1}
 \end{split}
 \end{equation*}
