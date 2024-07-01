@@ -91,7 +91,7 @@ The handbook also presents the Jordan-Pochhammer contour used in integral repres
 
 *NIST Handbook of Mathematical Functions, 5.12, [https://dlmf.nist.gov/5.12](https://dlmf.nist.gov/5.12)*
 
-TODO: Here I will skip the theory of integral representations, which I would very much like to cover for its elegance and beauty: why commutator contour, topology of Riemann surfaces, traveling the surface, and "collecting" the phase, etc.
+TODO: Here I will skip the theory of integral representations, which I would very much like to cover for its elegance and beauty: why commutator contour, topology of Riemann surfaces, traveling the surface, and accumulating the phase, etc.
 
 The technique is also used in integral representations of Legendre functions. With varying numbers of poles and their configuration, there are quite a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page shown in the Appendix:
 
