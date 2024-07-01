@@ -40,7 +40,7 @@ This construction is called exponential as commutator is longer by a factor of 2
 
 It would be convenient to find a way to construct a shorter variant if possible, and that is the polynomial construction defined by Chris Lusby Taylor [[3]](#3), [[4]](#4). For a single point, we define $E(i:i)=x_i$, for two points we define $E(i:i+1) = [x_i, x_{i+1}] = x_i x_{i+1} x_i^{-1} x_{i+1}^{-1}$. Now for some specific problem with $n$ points the solution is obtained by recursion
 
-$$E(i:j) = \left[ E(i:\lfloor \frac{i+j}{2} \rfloor), E(\lfloor \frac{i+j}{2} \rfloor + 1 : j) \right].$$
+$$E(i:j) = \left[ E(i:\lfloor \frac{i+j}{2} \rfloor), E(\lfloor \frac{i+j}{2} \rfloor + 1 : j) \right]$$
 
 Using polynomial construction for 3 points doesn't result in any gain compared to the exponential version, but for 4 points, polynomial commutator contains 16 symbols compared to 22 in the exponential version.
 
