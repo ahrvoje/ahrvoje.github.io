@@ -92,7 +92,7 @@ Both solutions example for picture-hanging problem:
 
 <img src="notation.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
 
-*Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator $x_1 x_2 x_1^{-1} x_2^{-1}$ and [[7]](#7) with $x_1 x_2^{-1} x_1^{-1} x_2$.*
+*Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator* $x_1 x_2 x_1^{-1} x_2^{-1}$ *and [[7]](#7) with* $x_1 x_2^{-1} x_1^{-1} x_2.$
 
 TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles. It would be nice to utilize polynomial construction and check different configurations of poles and contours.
 
