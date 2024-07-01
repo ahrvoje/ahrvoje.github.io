@@ -65,9 +65,9 @@ As mentioned, corresponding commutator contour is the solution of the Picture-ha
 
 *Picture-hanging solution for three nails problem with the commutator $x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}$*
 
-Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more".
+Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more". The property is a straightforward consequence of the construction described before.
 
-## Integral representation of special functions
+## Integral representations of special functions
 As mentioned, Camille Jordan was the first to introduce the concept of commutator contour in his legendary Cours d'Analyse [[1]](#1) as a tool for constructing integral representation of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of special functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
 
 <img src="F1.mag.png" alt="" width="450" style="background-color:white;">
@@ -94,7 +94,7 @@ Both solutions example for picture-hanging problem:
 
 *Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator $x_1 x_2 x_1^{-1} x_2^{-1}$ and [[7]](#7) with $x_1 x_2^{-1} x_1^{-1} x_2$.*
 
-TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles.
+TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles. It would be nice to utilize polynomial construction and check different configurations of poles and contours.
 
 A year ago I accidentaly discovered a small gem, a modest scan of the page of Schrodinger's notebook containing the first record of his famous equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
 
