@@ -96,7 +96,7 @@ Both solutions example for picture-hanging problem:
 
 TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles.
 
-A year ago I accidentaly encountered on a small gem, a modest scan of the page of Schrodinger's legendary notebook containing the first record of his equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
+A year ago I accidentaly discovered a small gem, a modest scan of the page of Schrodinger's legendary notebook containing the first record of his equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
 
 <img src="schrodinger_contour.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="700" style="background-color:white;">
 
