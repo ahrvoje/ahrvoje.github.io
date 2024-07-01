@@ -65,7 +65,7 @@ As mentioned, corresponding commutator contour is the solution of the Picture-ha
 
 *Picture-hanging solution for three nails problem with the commutator $x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}$*
 
-Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator exporession, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more".
+Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more".
 
 ## Integral representation of special functions
 As mentioned, Camille Jordan was the first to introduce the concept of commutator contour in his legendary Cours d'Analyse [[1]](#1) as a tool for constructing integral representation of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of special functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
@@ -115,7 +115,6 @@ I would be interested in obtaining more examples of application of commutator co
 <img src="jordan_contour_3.png" alt="Camille Jordan, Cours d'Analyse, Ed. 2, Vol. 3, pg. 244" width="600" style="background-color:white;">
 
 *First introduction of the concept of commutator contour by Camille Jordan, Cours d'Analyse, 1887, Ed. 1, Vol. 3, pg. 242-244, [https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up](https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up)*
-
 
 <img src="pochhammer.png" alt="Pochhammer, L. (1890), Zur Theorie der Euler'schen Integrale, Mathematische Annalen, 35 (4), pg. 499" width="600" style="background-color:white;">
 
