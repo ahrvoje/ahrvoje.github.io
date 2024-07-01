@@ -14,7 +14,7 @@ Net zero winding can be easily checked by illustration of the contour cycle:
 
 <img src="Jordan-Pochhammer_cycle.png" alt="Jordan-Pochhammer cycle" width="450" style="background-color:white;">
 
-Jordan-Pochhammer contour is an example of commutator contour for two points. The question is can such contour be constructed given n points, and how? The answer is positive, and the paper [[3]](#3) on picture-hanging puzzles offers two constructions, exponential and polynomial.
+Jordan-Pochhammer contour is an example of commutator contour for two points. The question is can such contour be constructed given n points, and how? The answer is positive, and the paper on picture-hanging puzzles [[3]](#3) offers two constructions, exponential and polynomial.
 
 We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_n$ being winding the curve around point $1$ clockwise and $x_n^{-1}$ for winding counterclockwise.
 
@@ -55,7 +55,7 @@ $$
 Length of n-point commutator resulting from polynomial construction is $n^2$ (hence the name) which is of considerable difference compared to exponential version with size $2^n$.
 
 ## Picture-hanging puzzles
-As mentioned, corresponding commutator contour is the solution of the Picture-hanging problem stating: "Hang a picture on n nails so that removing any one nail fells the picture."
+As mentioned, corresponding commutator contour is the solution of The Picture-hanging problem: "Hang a picture on n nails so that removing any one nail fells the picture."
 
 <img src="notation.png" alt="" width="450" style="background-color:white;">
 
@@ -82,13 +82,11 @@ The handbook also contains the presentation of Jordan-Pochhammer contour used in
 
 TODO: I will here skip the theory of integral representations, which I would very much like to cover for its elegance and beauty: why commutator contour, topology of Riemann surface, traveling the surface and "collecting" the phase, etc...
 
-Related tehnique is used in for integral representations of Legendre functions. With varying number of poles and their configuration there are more than a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page available in the Appendix:
+The tehnique is also used in integral representations of Legendre functions. With varying number of poles and their configuration there are more than a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page being available in the Appendix:
 
 <img src="legendre_MMP_Courant_Hilbert_507.png" alt="" width="450" style="background-color:white;">
 
 At this point it is interesting to note n-point solutions are not unique. Commutators can be defined in different ways by chosing the symbols we start with. In 2-point example we constructed the commutator with $[x_1, x_2]$. There is another way to do it and that is $[x_1, x_2^{-1}]$, this approach is as valid as any other. This way we get the second solution. Depending on the literature, some use first, some second. Results are the same as the only property we are interested in is commutator contour, any.
-
-Both solutions example for picture-hanging problem:
 
 <img src="notation.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
 
