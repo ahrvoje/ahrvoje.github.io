@@ -96,11 +96,11 @@ Both solutions example for picture-hanging problem:
 
 TODO: Identify commutator contours for integral representations of multivalued functions with 3 or more poles. It would be nice to utilize polynomial construction and check different configurations of poles and contours.
 
-A year ago I accidentaly discovered a small gem, a modest scan of the page of Schrodinger's notebook containing the first record of his famous equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
+A year ago I accidentaly discovered a small gem, a modest scan of the page from Schrödinger's notebook containing the first record of his famous equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, maybe even with a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
 
 <img src="schrodinger_contour.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="700" style="background-color:white;">
 
-*Note from Schrodinger's 1925 notebook with the first record of the equation. Same part of the page contains two commutator contours, complemetary solutions of the same 2-pole problem. (Disclamer: unverified)*
+*Note from Schrödinger's 1925 notebook with the first record of the equation. Same part of the page contains two commutator contours, complemetary solutions of the same 2-pole problem. (Disclamer: unverified)*
 
 
 ## Conclusion
@@ -128,7 +128,7 @@ I would be interested in obtaining more examples of application of commutator co
 
 <img src="schrodinger_page.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="600" style="background-color:white;">
 
-*The page from Schrodinger's 1925 notebook with the first record of the equation. Same part of the page contains two commutator contours of the 2-pole problem. (Disclamer: unverified)*
+*The page from Schrödinger's 1925 notebook with the first record of the equation. Same part of the page contains two commutator contours of the 2-pole problem. (Disclamer: unverified)*
 
 ## References
 <a id="1">[1]</a>
