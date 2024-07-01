@@ -114,7 +114,7 @@ I would be interested in obtaining more examples of application of commutator co
 
 <img src="jordan_contour_3.png" alt="Camille Jordan, Cours d'Analyse, Ed. 2, Vol. 3, pg. 244" width="600" style="background-color:white;">
 
-*First introduction of the concept of commutator contour by Camille Jordan, Cours d'Analyse, 1887, Ed. 1, Vol. 3, pg. 242-244, https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up*
+*First introduction of the concept of commutator contour by Camille Jordan, Cours d'Analyse, 1887, Ed. 1, Vol. 3, pg. 242-244, [https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up](https://archive.org/details/coursdanalysede08jordgoog/page/242/mode/2up)*
 
 
 <img src="pochhammer.png" alt="Pochhammer, L. (1890), Zur Theorie der Euler'schen Integrale, Mathematische Annalen, 35 (4), pg. 499" width="600" style="background-color:white;">
