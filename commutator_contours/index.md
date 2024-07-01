@@ -22,7 +22,15 @@ We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_n$ be
 In exponential construction 3-point commutator curve can be built starting with 2-point version and than simply checking the 3-point commutator:
 
 $$S_2 = [x_1, x_2] = x_1 x_2 x_1^{-1} x_2^{-1}$$
-$$S_3 = [S_2, x_3] = S_2 x_3 S_2^{-1} x_3^{-1} = (x_1 x_2 x_1^{-1} x_2^{-1}) x_3 (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} x_3^{-1} = x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}$$
+$$
+\begin{equation*}
+\begin{split}
+S_3 & = [S_2, x_3] = S_2 x_3 S_2^{-1} x_3^{-1} = \\
+      & = (x_1 x_2 x_1^{-1} x_2^{-1}) x_3 (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} x_3^{-1} = \\
+      & = x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}
+\end{split}
+\end{equation*}
+$$
 
 This construction is called exponential as the size of the commutator for one additional point is bigger by factor 2, with additional two entries for $x_n$ and $x_n^{-1}$
 $$S_n = [S_{n-1}, x_n] = S_{n-1} x_n S_{n-1}^{-1} x_n^{-1}.$$
@@ -33,7 +41,15 @@ $$E(i:j) = \left[ E(i:\lfloor \frac{i+j}{2} \rfloor), E(\lfloor \frac{i+j}{2} \r
 
 Using polynomial construction for 3 points doesn't result in any gain compared to the exponential version, but for 4 points polynomial commutator contains 16 symbols compared to 22 for exponential version.
 
-$$E(1:4) = [E(1:2), E(3,4)] = E(1:2) E(3,4) E(3,4)^{-1} E(1:2)^{-1} = (x_1 x_2 x_1^{-1} x_2^{-1}) (x_3 x_4 x_3^{-1} x_4^{-1}) (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} (x_3 x_4 x_3^{-1} x_4^{-1})^{-1} =  x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_4 x_3^{-1} x_4^{-1} x_2 x_1 x_2^{-1} x_1^{-1} x_4 x_3 x_4^{-1} x_3^{-1} $$
+$$
+\begin{equation*}
+\begin{split}
+E(1:4) &= [E(1:2), E(3,4)] = E(1:2) E(3,4) E(3,4)^{-1} E(1:2)^{-1} = \\
+       &= (x_1 x_2 x_1^{-1} x_2^{-1}) (x_3 x_4 x_3^{-1} x_4^{-1}) (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} (x_3 x_4 x_3^{-1} x_4^{-1})^{-1} \\
+       &= x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_4 x_3^{-1} x_4^{-1} x_2 x_1 x_2^{-1} x_1^{-1} x_4 x_3 x_4^{-1} x_3^{-1}
+\end{split}
+\end{equation*}
+$$
 
 Length of n-point commutator resulting from polynomial construction is $n^2$ (hence the name) which is of considerable difference compared to exponential version with size $2^n$.
 
