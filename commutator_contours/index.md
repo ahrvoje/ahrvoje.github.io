@@ -57,7 +57,7 @@ Length of n-point commutator resulting from polynomial construction is $n^2$ (he
 ## Picture-hanging puzzles
 As mentioned, corresponding commutator contour is the solution of the Picture-hanging problem stating: "Hang a picture on n nails so that removing any one nail fells the picture."
 
-<img src="solution-2.png" alt="" width="450" style="background-color:white;">
+<img src="notation.png" alt="" width="450" style="background-color:white;">
 
 *Picture-hanging solution for two nails problem with the commutator $x_1 x_2 x_1^{-1} x_2^{-1}$*
 
@@ -90,7 +90,7 @@ At this point it is interesting to note n-point solutions are not unique. Commut
 
 Both solutions example for picture-hanging problem:
 
-<img src="solution-2.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
+<img src="notation.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
 
 *Two complementary solutions of two nails picture hanging problem from two different sources: [[3]](#3) with commutator $x_1 x_2 x_1^{-1} x_2^{-1}$ and [[7]](#7) with $x_1 x_2^{-1} x_1^{-1} x_2$.*
 
