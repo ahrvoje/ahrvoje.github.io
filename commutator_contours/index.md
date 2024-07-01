@@ -20,7 +20,7 @@ We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_n$ be
 
 <img src="notation.png" alt="" width="450" style="background-color:white;">
 
-In exponential construction 3-point commutator curve can be built starting with 2-point version and than simply checking the 3-point commutator:
+In exponential construction 3-point commutator curve can be built starting with 2-point version and than simply extending to 3-point commutator:
 
 $$S_2 = [x_1, x_2] = x_1 x_2 x_1^{-1} x_2^{-1}$$
 
@@ -45,7 +45,7 @@ Using polynomial construction for 3 points doesn't result in any gain compared t
 $$
 \begin{equation*}
 \begin{split}
-E(1:4) &= [E(1:2), E(3,4)] = E(1:2) E(3,4) E(3,4)^{-1} E(1:2)^{-1} = \\
+E(1:4) &= [E(1:2), E(3,4)] = E(1:2) E(3,4) E(1,2)^{-1} E(3:4)^{-1} = \\
        &= (x_1 x_2 x_1^{-1} x_2^{-1}) (x_3 x_4 x_3^{-1} x_4^{-1}) (x_1 x_2 x_1^{-1} x_2^{-1})^{-1} (x_3 x_4 x_3^{-1} x_4^{-1})^{-1} = \\
        &= x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_4 x_3^{-1} x_4^{-1} x_2 x_1 x_2^{-1} x_1^{-1} x_4 x_3 x_4^{-1} x_3^{-1}
 \end{split}
