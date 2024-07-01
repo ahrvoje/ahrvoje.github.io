@@ -20,7 +20,9 @@ We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_n$ be
 
 <img src="notation.png" alt="" width="450" style="background-color:white;">
 
-In exponential construction 3-point commutator curve can be built starting with 2-point version and than simply extending to 3-point commutator:
+*Example of the contour for the expression* $x_1 x_2 x_1^{-1} x_2^{-1}.$ *Simply follow the line considering consecutive symbols in the expression.*
+
+In the exponential construction 3-point commutator curve can be built starting with 2-point version and than simply extend it to 3-point commutator:
 
 $$S_2 = [x_1, x_2] = x_1 x_2 x_1^{-1} x_2^{-1}$$
 
@@ -65,20 +67,20 @@ As mentioned, corresponding commutator contour is the solution of The Picture-ha
 
 *Picture-hanging solution for three nails problem with the commutator* $x_1 x_2 x_1^{-1} x_2^{-1} x_3 x_2 x_1 x_2^{-1} x_1^{-1} x_3^{-1}.$
 
-Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication annihilate into $1$, which is interpreted as "the knot is no more". The property is a straightforward consequence of the construction described before.
+Commutator contours are the solutions of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication the entire expression reduces to $1$, which is interpreted as "the knot is no more." The property is a straightforward consequence of the construction described before.
 
 ## Integral representations of special functions
-As mentioned, Camille Jordan was the first to introduce the concept of commutator contour as a tool for constructing integral representations of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of special functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
+As mentioned, Camille Jordan was the first to introduce the concept of commutator contour as a tool for constructing integral representations of multivalued complex functions. As seen from the Appendix, he used similar formalism using expressions as $A B A^{-1} B^{-1}$. My first contact with the topic was by being intrigued by the contour in NIST Handbook of Mathematical Functions [[5]](#5) used in integral representation of Kummer hypergeometric function.
 
 <img src="F1.mag.png" alt="" width="450" style="background-color:white;">
 
-*NIST Handbook of special functions, 13.4, [https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4)*
+*NIST Handbook of Mathematical Functions, 13.4, [https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4)*
 
 The handbook also contains the presentation of Jordan-Pochhammer contour used in integral representation of Beta function. Leo Pochhammer visualized it for the first time in "Zur Theorie der Euler'schen Integrale" [[6]](#6) in 1890 in a bit different manner as presented in the Appendix.
 
 <img src="F3.mag.png" alt="" width="450" style="background-color:white;">
 
-*NIST Handbook of special functions, 5.12, [https://dlmf.nist.gov/5.12](https://dlmf.nist.gov/5.12)*
+*NIST Handbook of Mathematical Functions, 5.12, [https://dlmf.nist.gov/5.12](https://dlmf.nist.gov/5.12)*
 
 TODO: I will here skip the theory of integral representations, which I would very much like to cover for its elegance and beauty: why commutator contour, topology of Riemann surface, traveling the surface and "collecting" the phase, etc...
 
@@ -142,7 +144,7 @@ Camille Jordan, Cours d'analyse de l'École polytechnique, 1887, Vol. 3, pg. 242
 [http://www.mathpuzzle.com/hangingpicture.htm](http://www.mathpuzzle.com/hangingpicture.htm) Ed Pegg Jr., Picture hanging, 2002
 
 <a id="5">[5]</a>
-[https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4) Integral representation of Kummer function
+[https://dlmf.nist.gov/13.4](https://dlmf.nist.gov/13.4) Integral representation of the Kummer function
 
 <a id="6">[6]</a>
 [https://zenodo.org/records/1428390](https://zenodo.org/records/1428390) Pochhammer, L. (1890), Zur Theorie der Euler'schen Integrale, Mathematische Annalen, 35 (4), pg. 499
