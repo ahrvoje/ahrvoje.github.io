@@ -109,7 +109,7 @@ A year ago, I accidentally discovered a small gem - a modest scan of a page from
 I would be interested in obtaining more examples of application of commutator contours, such as integral representations with three or more poles, or in totally different domains. Additionally, it would be interesting to know if there has been any generalized treatise to date.
 
 ## Acknowledgements
-I would like to express my sincere gratitude to all those who influenced the creation of the post. To the colleague physicist Goran Duplančić for introducing me to the picture-hanging problem. To my dear colleague Matej Dobrovodski for buying and flying the NIST book from the UK as none of us knew the book is about the size of a small pig. And to Ivica Smolić for useful discussion and for motivating me to produce some output.
+I would like to express my sincere gratitude to all those who influenced the creation of the post. To the colleague physicist Goran Duplančić for introducing me to the picture-hanging problem. To my dear colleague Matej Dobrovodski for buying and flying the NIST book from the UK as none of us knew the book is about the size of a small pig. Last but not least, to Ivica Smolić for useful discussion and for motivating me to produce some material on this modest observation.
 
 ## Appendix
 
