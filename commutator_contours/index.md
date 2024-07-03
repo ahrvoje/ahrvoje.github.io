@@ -72,7 +72,7 @@ As mentioned, the corresponding commutator contour is the solution of the pictur
 
 A commutator contour is the solution of the problem because removing some nail $i$ algebraically corresponds to removing symbols $x_i$ & $x_i^{-1}$ from the commutator expression, after which some $x_j, x_j^{-1}$ pairs come "in direct contact" and by step by step multiplication, the entire expression reduces to $1$, which is interpreted as "the knot is no more." The property is a straightforward consequence of the construction described before.
 
-At this point it is interesting to note that $n$-point solutions are not unique. Commutators can be defined in different ways by choosing different starting symbols pair. In the 2-point example, we constructed the commutator with $[x_1, x_2]$, but using the commutator $[x_1, x_2^{-1}]$ instead is equally valid. This way we get the second solution. Depending on the literature, some use the first, some the second. Results are the same as the only property we are interested in is a commutator contour, any.
+At this point it is interesting to note that $n$-point solutions are not unique. Commutators can be defined in different ways by choosing different starting symbols pair. In the 2-point example, we constructed the commutator with $[x_1, x_2]$, but using the commutator $[x_1, x_2^{-1}]$ instead is equally valid. This way we get the second solution. Depending on the literature, some use the first, some the second. Effects are similar as they would be for any adequate n-point commutator contour.
 
 <img src="notation.png" alt="" width="450" style="background-color:white;"> <img src="solution-2A.png" alt="" width="450" style="background-color:white;">
 
