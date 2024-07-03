@@ -16,7 +16,7 @@ Net zero winding can be easily checked by illustration of the contour cycle:
 
 Jordan-Pochhammer contour is an example of commutator contour for two points. The question is: can such a contour be constructed given n points, and how? The answer is yes, and the paper on picture-hanging puzzles [[3]](#3) offers two constructions, exponential and polynomial.
 
-We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_i$ being winding the curve around point $i$ clockwise and $x_i^{-1}$ for winding it counterclockwise.
+We define $2n$ symbols ($x_1$, $x_1^{-1}$, ..., $x_n$, $x_n^{-1}$) with $x_i$ being winding the curve around point $i$ clockwise and $x_i^{-1}$ for winding it counterclockwise. Algebra rules are simple: symbol's order can't change, and the product $x_i \cdot x_i^{-1}$ reduces to $1.$
 
 <img src="notation.png" alt="" width="450" style="background-color:white;">
 
@@ -40,7 +40,7 @@ This construction is called exponential as commutator is longer by a factor of 2
 
 It would be convenient to find a way to construct a shorter variant if possible, and that is the polynomial construction defined by Chris Lusby Taylor [[3]](#3), [[4]](#4). For a single point, we define $E(i:i)=x_i$, for two points we define $E(i:i+1) = [x_i, x_{i+1}] = x_i x_{i+1} x_i^{-1} x_{i+1}^{-1}$. Now for some specific problem with $n$ points the solution is obtained by recursion
 
-$$E(i:j) = \left[ E(i:\lfloor \frac{i+j}{2} \rfloor), E(\lfloor \frac{i+j}{2} \rfloor + 1 : j) \right]$$
+$$E(i:j) = \left[ E \left( i: \left\lfloor \frac{i+j}{2} \right\rfloor \right), E \left( \left\lfloor \frac{i+j}{2} \right\rfloor + 1 : j \right) \right]$$
 
 Using polynomial construction for 3 points doesn't result in any gain compared to the exponential version, but for 4 points, polynomial commutator contains 16 symbols compared to 22 in the exponential version.
 
