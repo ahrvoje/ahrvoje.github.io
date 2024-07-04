@@ -93,20 +93,20 @@ The handbook also presents the Jordan-Pochhammer contour used in integral repres
 
 TODO: Here I will skip the theory of integral representations, which I would very much like to cover for its elegance and beauty: why commutator contour, topology of Riemann surfaces, traveling the surface, and accumulating the phase, etc.
 
-The technique is also used in integral representations of Legendre functions. With varying numbers of poles and their configuration, there are quite a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page shown in the Appendix:
+The technique is also used in integral representations of Legendre functions. With varying numbers of branch points and their configuration, there are quite a few cases to cover. One example from Courant-Hilbert Methods of Mathematical Physics, Vol. 1 [[8]](#8), with the full page shown in the Appendix:
 
 <img src="legendre_MMP_Courant_Hilbert_507.png" alt="" width="450" style="background-color:white;">
 
-TODO: Identify commutator contours for integral representations of multivalued functions with three or more poles. It would be nice to utilize polynomial construction and check different configurations of poles and contours.
+TODO: Identify commutator contours for integral representations of multivalued functions with three or more branch points. It would be nice to utilize polynomial construction and check different configurations of branch points and contours.
 
-A year ago, I accidentally discovered a small gem - a modest scan of a page from Schrödinger's notebook containing the first record of his famous equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a 2-pole integration commutator contour, possibly even a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
+A year ago, I accidentally discovered a small gem - a modest scan of a page from Schrödinger's notebook containing the first record of his famous equation. The notebook was created during his visit to Villa Herwig-Arosa at Christmas 1925. Along with the equation, this exact part of the page contains a two branch points integration commutator contour, possibly even a try to draw a complementary contour as there are two of them with slight experimentation on its construction.
 
 <img src="schrodinger_contour.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="700" style="background-color:white;">
 
-*Note from Schrödinger's 1925 notebook with the first record of the equation. The same part of the page contains two commutator contours of 2-pole problem. (Disclamer: unverified)*
+*Note from Schrödinger's 1925 notebook with the first record of the equation. The same part of the page contains two commutator contours of two branch points problem. (Disclamer: unverified)*
 
 ## Conclusion
-I would be interested in obtaining more examples of application of commutator contours, such as integral representations with three or more poles, or in totally different domains. Additionally, it would be interesting to know if there has been any generalized treatise to date.
+I would be interested in obtaining more examples of application of commutator contours, such as integral representations with three or more branch points, or in totally different domains. Additionally, it would be interesting to know if there has been any generalized treatise to date.
 
 ## Acknowledgements
 I would like to express my sincere gratitude to all those who influenced the creation of the post. To the colleague physicist Goran Duplančić for introducing me to the picture-hanging problem. To my dear colleague Matej Dobrovodski for buying and flying the NIST book from the UK as none of us knew the book is about the size of a small pig. Last but not least, to Ivica Smolić for useful discussion and for motivating me to produce some output on this modest observation.
@@ -133,7 +133,7 @@ I would like to express my sincere gratitude to all those who influenced the cre
 
 <img src="schrodinger_page.png" alt="Schrodinger's equation - George Japaridze facebook post 01.05.2023." width="600" style="background-color:white;">
 
-*The page from Schrödinger's 1925 notebook with the first record of the equation. Same part of the page contains two commutator contours of the 2-pole problem. (Disclamer: unverified)*
+*The page from Schrödinger's 1925 notebook with the first record of the equation. Same part of the page contains two commutator contours of the two branch points problem. (Disclamer: unverified)*
 
 ## References
 <a id="1">[1]</a>
