@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  
+  <title>Palette Color Switcher</title>
+  
+  <style>
+    .btn { cursor: pointer; }
+    .btn-rect { fill: #f8f9fa; stroke: #333; stroke-width: 1.5; transition: fill 0.2s; }
+    .btn:hover .btn-rect { fill: #e9ecef; stroke: #000; }
+    .btn-text { font-size: 14px; fill: #333; text-anchor: middle; dominant-baseline: middle; user-select: none; }
+    .label { font-size: 24px; fill: #111; }
+    .circle-obj { transition: fill 0.4s ease-out; stroke: #222; stroke-width: 3; }
+  </style>
+
+  <script type="text/javascript">
+    <![CDATA[
+      // Define the 6 nice palettes
+      const palettes = [
+        ['#E57373', '#6495ED', '#81C784'], // 1. Original (Salmon, Cornflower, Soft Green)
+        ['#2E3440', '#88C0D0', '#BF616A'], // 2. Nord Theme (Dark Grey, Cyan, Red)
+        ['#FF9F1C', '#FFBF69', '#CBF3F0'], // 3. Warm Sunset (Orange, Peach, Mint)
+        ['#264653', '#2A9D8F', '#E9C46A'], // 4. Deep Sea (Dark Blue, Teal, Gold)
+        ['#8338EC', '#3A86FF', '#FF006E'], // 5. Cyber Neon (Purple, Blue, Hot Pink)
+        ['#606C38', '#283618', '#FEFAE0']  // 6. Earthy (Olive, Dark Green, Cream)
+      ];
+
+      function setPalette(index) {
+        const p = palettes[index];
+        if (!p) return;
+        
+        // Update circles
+        document.getElementById('c1').setAttribute('fill', p[0]);
+        document.getElementById('c2').setAttribute('fill', p[1]);
+        document.getElementById('c3').setAttribute('fill', p[2]);
+      }
+    ]]>
+  </script>
+
+  <rect width="100%" height="100%" fill="white" />
+
+  <text x="30" y="50" class="label">Click a palette to change the three circle colors</text>
+
+  <circle id="c1" cx="240" cy="180" r="65" fill="#E57373" class="circle-obj" />
+  <circle id="c2" cx="400" cy="180" r="75" fill="#6495ED" class="circle-obj" />
+  <circle id="c3" cx="560" cy="180" r="65" fill="#81C784" class="circle-obj" />
+
+  <g transform="translate(45, 330)">
+    
+    <g class="btn" onclick="setPalette(0)">
+      <rect x="0" y="0" width="100" height="50" rx="10" class="btn-rect"/>
+      <text x="50" y="27" class="btn-text">Palette 1</text>
+    </g>
+
+    <g class="btn" transform="translate(120, 0)" onclick="setPalette(1)">
+      <rect x="0" y="0" width="100" height="50" rx="10" class="btn-rect"/>
+      <text x="50" y="27" class="btn-text">Palette 2</text>
+    </g>
+
+    <g class="btn" transform="translate(240, 0)" onclick="setPalette(2)">
+      <rect x="0" y="0" width="100" height="50" rx="10" class="btn-rect"/>
+      <text x="50" y="27" class="btn-text">Palette 3</text>
+    </g>
+
+    <g class="btn" transform="translate(360, 0)" onclick="setPalette(3)">
+      <rect x="0" y="0" width="100" height="50" rx="10" class="btn-rect"/>
+      <text x="50" y="27" class="btn-text">Palette 4</text>
+    </g>
+
+    <g class="btn" transform="translate(480, 0)" onclick="setPalette(4)">
+      <rect x="0" y="0" width="100" height="50" rx="10" class="btn-rect"/>
+      <text x="50" y="27" class="btn-text">Palette 5</text>
+    </g>
+
+    <g class="btn" transform="translate(600, 0)" onclick="setPalette(5)">
+      <rect x="0" y="0" width="100" height="50" rx="10" class="btn-rect"/>
+      <text x="50" y="27" class="btn-text">Palette 6</text>
+    </g>
+
+  </g>
+</svg>

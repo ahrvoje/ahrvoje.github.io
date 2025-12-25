@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Math Function Plotter</title>
+
+  <style>
+    /* Button Styles */
+    .btn { cursor: pointer; }
+    .btn-rect { fill: #f8f9fa; stroke: #ccc; stroke-width: 1; transition: all 0.2s; rx: 8; }
+    .btn:hover .btn-rect { fill: #e2e6ea; stroke: #999; }
+    .btn-text { font-size: 14px; fill: #333; text-anchor: middle; dominant-baseline: middle; user-select: none; }
+    
+    /* Active state for the selected button */
+    .btn.active .btn-rect { fill: #dbeafe; stroke: #3b82f6; stroke-width: 2; }
+    .btn.active .btn-text { fill: #1e40af; font-weight: bold; }
+
+    /* General UI */
+    .main-label { font-size: 22px; fill: #111; text-anchor: middle; }
+    
+    /* Graph Styling */
+    .axis { stroke: #888; stroke-width: 1.5; }
+    .grid-line { stroke: #eee; stroke-width: 1; }
+    .axis-label { font-size: 12px; fill: #666; text-anchor: middle; dominant-baseline: middle;}
+    
+    /* The line that changes */
+    #graph-path {
+      fill: none;
+      stroke: #dc2626; /* A nice red color */
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: d 0.3s ease-in-out; /* Smooth transition between shapes */
+    }
+  </style>
+
+  <script type="text/javascript">
+    <![CDATA[
+      // Configuration for the graphing area
+      const config = {
+        centerX: 400,  // Horizontal center of graph in SVG px
+        centerY: 200,  // Vertical center of graph in SVG px
+        scale: 35,     // How many SVG pixels equal 1 mathematical unit
+        rangeX: 9,     // Calculate from x = -9 to x = +9
+        step: 0.05     // Resolution: smaller = smoother line, more calculation
+      };
+
+      // Definitions of the math functions
+      const mathFunctions = {
+        'square': (x) => x * x,
+        'sine': (x) => Math.sin(x),
+        'sqrt': (x) => (x < 0 ? NaN : Math.sqrt(x)), // Return NaN for negative inputs
+        'cubic': (x) => x * x * x,
+        'abs': (x) => Math.abs(x),
+        'exp': (x) => Math.exp(x) // grows very fast
+      };
+
+      // Main plotting function called by buttons
+      function plot(funcKey) {
+        const func = mathFunctions[funcKey];
+        if (!func) return;
+
+        let pathData = "";
+        let firstPoint = true;
+
+        // Loop through X values from negative to positive range
+        for (let x = -config.rangeX; x <= config.rangeX; x += config.step) {
+          
+          // Calculate Y based on the selected function
+          const mathY = func(x);
+
+          // Skip undefined/imaginary results (like sqrt(-1))
+          if (isNaN(mathY) || !isFinite(mathY)) {
+              firstPoint = true; // Reset path if we hit a gap (important for sqrt)
+              continue; 
+          }
+
+          // --- Coordinate Transformation ---
+          // Convert mathematical (x,y) to SVG (pixels_x, pixels_y)
+          const svgX = config.centerX + (x * config.scale);
+          // Subtract mathY because SVG Y-axis goes DOWN, math Y-axis goes UP
+          const svgY = config.centerY - (mathY * config.scale);
+
+          // Build SVG Path 'd' attribute command
+          if (firstPoint) {
+            pathData += `M ${svgX.toFixed(1)} ${svgY.toFixed(1)}`; // Move to start
+            firstPoint = false;
+          } else {
+            pathData += ` L ${svgX.toFixed(1)} ${svgY.toFixed(1)}`; // Line to next
+          }
+        }
+
+        // Update the DOM
+        document.getElementById('graph-path').setAttribute('d', pathData);
+        updateActiveButton(funcKey);
+      }
+
+      // UI Helper to highlight selected button
+      function updateActiveButton(activeKey) {
+         const btns = document.getElementsByClassName('btn');
+         for(let btn of btns) {
+             btn.classList.remove('active');
+             if(btn.id === 'btn-' + activeKey) {
+                 btn.classList.add('active');
+             }
+         }
+      }
+
+      // Initialize with Sine wave on load
+      window.onload = function() {
+          plot('sine');
+      };
+    ]]>
+  </script>
+
+  <rect width="100%" height="100%" fill="#fafafa" />
+
+  <text x="400" y="40" class="main-label">Click a button to plot mathematical functions</text>
+
+  <defs>
+    <clipPath id="graph-clip">
+      <rect x="100" y="60" width="600" height="280"/>
+    </clipPath>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <rect x="100" y="60" width="600" height="280" fill="white" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="100" y="200" dx="-10" class="axis-label">-X</text>
+    <text x="700" y="200" dx="10" class="axis-label">+X</text>
+    <text x="400" y="60" dy="-10" class="axis-label">+Y</text>
+    <text x="400" y="340" dy="15" class="axis-label">-Y</text>
+    <text x="390" y="215" class="axis-label" style="font-size:10px">(0,0)</text>
+
+    <line x1="100" y1="200" x2="700" y2="200" class="axis" /> <line x1="400" y1="60" x2="400" y2="340" class="axis" /> </g>
+  
+  <g clip-path="url(#graph-clip)">
+      <path id="graph-path" d="" />
+  </g>
+
+
+  <g transform="translate(75, 370)">
+    
+    <g class="btn" id="btn-square" onclick="plot('square')">
+      <rect width="90" height="45" class="btn-rect"/>
+      <text x="45" y="22.5" class="btn-text">y = x²</text>
+    </g>
+
+    <g class="btn" id="btn-sine" transform="translate(110, 0)" onclick="plot('sine')">
+      <rect width="90" height="45" class="btn-rect"/>
+      <text x="45" y="22.5" class="btn-text">y = sin(x)</text>
+    </g>
+
+    <g class="btn" id="btn-sqrt" transform="translate(220, 0)" onclick="plot('sqrt')">
+      <rect width="90" height="45" class="btn-rect"/>
+      <text x="45" y="22.5" class="btn-text">y = √x</text>
+    </g>
+
+    <g class="btn" id="btn-cubic" transform="translate(330, 0)" onclick="plot('cubic')">
+      <rect width="90" height="45" class="btn-rect"/>
+      <text x="45" y="22.5" class="btn-text">y = x³</text>
+    </g>
+
+    <g class="btn" id="btn-abs" transform="translate(440, 0)" onclick="plot('abs')">
+      <rect width="90" height="45" class="btn-rect"/>
+      <text x="45" y="22.5" class="btn-text">y = |x|</text>
+    </g>
+
+    <g class="btn" id="btn-exp" transform="translate(550, 0)" onclick="plot('exp')">
+      <rect width="90" height="45" class="btn-rect"/>
+      <text x="45" y="22.5" class="btn-text">y = eˣ</text>
+    </g>
+
+  </g>
+</svg>
