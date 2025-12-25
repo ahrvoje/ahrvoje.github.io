@@ -1,0 +1,104 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="Three circles with six palette buttons (no JavaScript)">
+
+  <defs>
+    <style>
+      .label {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        font-size: 16px;
+        fill: #111;
+      }
+      .circle {
+        stroke: #111;
+        stroke-width: 2;
+      }
+      .btn { cursor: pointer; }
+      .btn rect {
+        fill: #f5f5f5;
+        stroke: #333;
+        stroke-width: 1;
+        rx: 8; ry: 8;
+      }
+      .btn:hover rect { fill: #eaeaea; }
+      .btn text {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        font-size: 12px;
+        fill: #111;
+        user-select: none;
+        pointer-events: none;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="720" height="420" fill="#ffffff"></rect>
+
+  <!-- Title -->
+  <text x="24" y="34" class="label">Click a palette to change the three circle colors</text>
+
+  <!-- Circles -->
+  <circle id="c1" class="circle" cx="180" cy="145" r="70" fill="#ff6b6b">
+    <set attributeName="fill" to="#ff6b6b" begin="b0.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#ffd43b" begin="b1.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#343a40" begin="b2.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#e03131" begin="b3.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#f06595" begin="b4.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#ff922b" begin="b5.click" dur="0.001s" fill="freeze"></set>
+  </circle>
+
+  <circle id="c2" class="circle" cx="360" cy="175" r="85" fill="#4dabf7">
+    <set attributeName="fill" to="#4dabf7" begin="b0.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#845ef7" begin="b1.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#adb5bd" begin="b2.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#1864ab" begin="b3.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#339af0" begin="b4.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#20c997" begin="b5.click" dur="0.001s" fill="freeze"></set>
+  </circle>
+
+  <circle id="c3" class="circle" cx="540" cy="145" r="65" fill="#51cf66">
+    <set attributeName="fill" to="#51cf66" begin="b0.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#12b886" begin="b1.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#f8f9fa" begin="b2.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#2f9e44" begin="b3.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#82c91e" begin="b4.click" dur="0.001s" fill="freeze"></set>
+    <set attributeName="fill" to="#5c7cfa" begin="b5.click" dur="0.001s" fill="freeze"></set>
+  </circle>
+
+  <!-- Buttons: single row, centered -->
+  <!-- Each button is 105px wide, 40px tall, 10px gaps: total = 6*105 + 5*10 = 680px -->
+  <g id="buttons" transform="translate(20, 305)">
+    <g id="b0" class="btn" transform="translate(0, 0)">
+      <rect width="105" height="40"></rect>
+      <text x="52.5" y="25" text-anchor="middle">Palette 1</text>
+    </g>
+
+    <g id="b1" class="btn" transform="translate(115, 0)">
+      <rect width="105" height="40"></rect>
+      <text x="52.5" y="25" text-anchor="middle">Palette 2</text>
+    </g>
+
+    <g id="b2" class="btn" transform="translate(230, 0)">
+      <rect width="105" height="40"></rect>
+      <text x="52.5" y="25" text-anchor="middle">Palette 3</text>
+    </g>
+
+    <g id="b3" class="btn" transform="translate(345, 0)">
+      <rect width="105" height="40"></rect>
+      <text x="52.5" y="25" text-anchor="middle">Palette 4</text>
+    </g>
+
+    <g id="b4" class="btn" transform="translate(460, 0)">
+      <rect width="105" height="40"></rect>
+      <text x="52.5" y="25" text-anchor="middle">Palette 5</text>
+    </g>
+
+    <g id="b5" class="btn" transform="translate(575, 0)">
+      <rect width="105" height="40"></rect>
+      <text x="52.5" y="25" text-anchor="middle">Palette 6</text>
+    </g>
+  </g>
+
+  <text x="24" y="408" class="label" opacity="0.75">
+    Note: This version uses SVG SMIL (no JavaScript), so it works even when scripts are blocked.
+  </text>
+</svg>
